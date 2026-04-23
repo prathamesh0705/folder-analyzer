@@ -1,0 +1,103 @@
+.flow-diagram {
+    overflow: hidden;
+}
+
+.flow-diagram h2 {
+    margin-bottom: var(--spacing-md);
+}
+
+.entry-points {
+    margin-bottom: var(--spacing-lg);
+    padding-bottom: var(--spacing-md);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.entry-points h3 {
+    margin-bottom: var(--spacing-sm);
+}
+
+.entry-point-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-xs);
+}
+
+.entry-point-badge {
+    background: var(--gradient-success);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-md);
+    font-weight: 600;
+    font-size: 0.9rem;
+    box-shadow: 0 2px 8px rgba(16, 185, 129, 0.3);
+}
+
+.flow-description {
+    background: rgba(99, 102, 241, 0.05);
+    padding: var(--spacing-md);
+    border-radius: var(--radius-md);
+    margin-bottom: var(--spacing-lg);
+    border-left: 4px solid var(--accent-primary);
+    color: var(--text-secondary);
+    line-height: 1.7;
+}
+
+.flow-description strong {
+    color: var(--text-primary);
+}
+
+.flow-description code {
+    background: var(--bg-tertiary);
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.25rem;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9em;
+    color: var(--accent-primary);
+}
+
+.mermaid-container {
+    background: var(--bg-secondary);
+    border-radius: var(--radius-md);
+    padding: var(--spacing-lg);
+    border: 1px solid var(--border-color);
+    overflow-x: auto;
+    margin-bottom: var(--spacing-md);
+}
+
+.mermaid {
+    display: flex;
+    justify-content: center;
+    min-height: 200px;
+}
+
+.mermaid svg {
+    max-width: 100%;
+    height: auto;
+}
+
+.flow-info {
+    padding: var(--spacing-md);
+    background: rgba(139, 92, 246, 0.05);
+    border-radius: var(--radius-md);
+    border-left: 4px solid var(--accent-secondary);
+}
+
+.flow-info p {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.flow-empty {
+    padding: var(--spacing-xl);
+    text-align: center;
+    color: var(--text-tertiary);
+    background: var(--bg-tertiary);
+    border-radius: var(--radius-md);
+}
+
+@media (max-width: 768px) {
+    .mermaid-container {
+        padding: var(--spacing-sm);
+    }
+}
