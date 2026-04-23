@@ -2,6 +2,11 @@
 
 > **Advanced Project Structure Analysis & Visualization Tool**
 
+## 🌐 Live Demo
+
+👉 https://folder-analyzer.vercel.app/
+
+
 A powerful web application that automatically analyzes folder structures, maps file dependencies, ranks file importance, and visualizes project relationships with interactive graphs and diagrams.
 
 ![Folder Analyzer](https://img.shields.io/badge/Status-Production%20Ready-success)
@@ -10,6 +15,23 @@ A powerful web application that automatically analyzes folder structures, maps f
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
 ---
+
+## 🧠 About
+
+Folder Analyzer is a full-stack AI-powered tool designed to help developers quickly understand complex codebases by visualizing dependencies, ranking file importance, and generating intelligent summaries.
+
+## 🚀 Deployment
+
+The application is fully deployed and accessible online:
+
+- Frontend: Vercel  
+- Backend: Render  
+
+### Live Architecture:
+Frontend (Vercel) → Backend API (Render) → Analysis Engine
+
+### Environment Variables:
+VITE_API_URL = <backend-url>
 
 ## ✨ Features
 
